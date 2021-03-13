@@ -1,0 +1,18 @@
+#server config
+server:
+  port: 8085
+
+#aws config
+amazon:
+  aws:
+    accesskey:
+    region: ap-south-1
+    secretkey:
+  dynamodb:
+    endpoint: http://dynamodb.ap-south-1.amazonaws.com/
+
+#api config
+open:
+  api:
+    id: 67162a3ba340d7cf19445ecc45b5a25a
+    uri: http://api.openweathermap.org/data/2.5/weather
