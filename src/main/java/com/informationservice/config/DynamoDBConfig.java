@@ -18,6 +18,7 @@ import java.util.function.Function;
 @EnableDynamoDBRepositories(basePackages = "com.informationservice.repositories")
 public class DynamoDBConfig {
 
+    
 
     @Value("${amazon.dynamodb.endpoint}")
     private String amazonDynamoDBEndpoint;
